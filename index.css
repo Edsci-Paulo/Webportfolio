@@ -1,40 +1,68 @@
-*
-
-
-
-.aboutUs {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #FFBCDA;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    overflow-x: hidden;
+    background-image: url('./images/00.jpg');
+    background-color: #000000;
+    background-attachment: fixed;
+    background-size: cover;
+   
 }
 
-body{
-    min-height: 100vh;
-    width: 100vw;
-    overflow-x: hidden;
+nav {
+    background-color: #ffa590;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 1px 10px #333;
+}
+.landingPage {
+    margin-left: auto;
+    
+} 
+@media (min-width:576px) and (max-width: 720px){
+    .landingPage {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.landingPage-text {
+    margin-bottom: 100px
+
+}
+.landingPage img {
     margin-right: 0;
+}
+
+/*  */.aboutUs img{
+    min-height: 12.5em;
+    
+    
+    
+}
+.aboutUs p{
+    object-position: bottom ;
+    font-size: medium;
+}
+
+.aboutUs {
+    padding top: 250px;
+    padding-bottom: 200px;
+    background-color: #FFBCDA;
     
 }
 
-.view {
-    background-image: url('./images/bg00.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+.gallery {
+    background-color: #FFBCDA;
+    background-image:url('./images/pink.jpg');
+    box-shadow: hotpink;
 }
 
-.pau {
-    background-image: url('./images/bg01.png');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+
+.contactUs {
+    background-color: #f25278;
 }
 
-html,body{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
